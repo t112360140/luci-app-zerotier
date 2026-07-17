@@ -1,0 +1,427 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_Hant\n"
+"MIME-Version: 1.0\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:125
+msgid "Allow DNS"
+msgstr "允許 DNS"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:126
+msgid "Allow ZeroTier to set DNS servers."
+msgstr "允許 ZeroTier 設定 DNS 伺服器。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:113
+msgid ""
+"Allow ZeroTier to set IP addresses and routes (local/private ranges only)."
+msgstr "允許 ZeroTier 設定 IP 位址和路由（僅限本地/私有範圍）。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:118
+msgid "Allow ZeroTier to set global/public/not-private range IPs and routes."
+msgstr "允許 ZeroTier 設定全域/公用/非私有範圍的 IP 位址和路由。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:122
+msgid "Allow ZeroTier to set the default route on the system."
+msgstr "允許 ZeroTier 在系統上設定預設路由。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:121
+msgid "Allow default route"
+msgstr "允許預設路由"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:133
+msgid "Allow forward"
+msgstr "允許轉發"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:134
+msgid "Allow forward traffic from/to the ZeroTier network."
+msgstr "允許從/到 ZeroTier 網路的轉發流量。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:117
+msgid "Allow global IP/route"
+msgstr "允許全域 IP/路由"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:129
+msgid "Allow input"
+msgstr "允許傳入"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:87
+msgid "Allow input traffic"
+msgstr "允許傳入流量"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:130
+msgid "Allow input traffic from the ZeroTier network."
+msgstr "允許來自 ZeroTier 網路的傳入流量。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:88
+msgid "Allow input traffic to the ZeroTier daemon."
+msgstr "允許外部流量進入 ZeroTier 常駐程式。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:112
+msgid "Allow managed IP/route"
+msgstr "允許管理 IP/路由"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:71
+msgid "Client secret"
+msgstr "客戶端金鑰"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:60
+msgid "Collecting data…"
+msgstr "收集資料中…"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:79
+msgid "Config path"
+msgstr "設定路徑"
+
+#: applications/luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json:14
+msgid "Configuration"
+msgstr "設定"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:83
+msgid "Copy config path"
+msgstr "複製設定目錄"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:84
+msgid ""
+"Copy the contents of the persistent configuration directory to memory "
+"instead of linking it, this avoids writing to flash."
+msgstr ""
+"將持久性配置目錄的內容複製到記憶體中，而不是鏈接它，這樣可以避免寫入快閃記憶"
+"體。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:91
+msgid ""
+"Create or manage your ZeroTier network, and auth clients who could access."
+msgstr "新建或管理您的 ZeroTier 網路，並授權用戶端訪問。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:66
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:104
+msgid "Enable"
+msgstr "啟用"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:145
+msgid ""
+"Enable network address and port translation (NAT) for outbound traffic for "
+"this network."
+msgstr "為此網路的傳出流量開啟網路位址和連接埠轉換（NAT4 或 NAPT4）。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:137
+msgid "Forward interfaces"
+msgstr "轉發介面"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:64
+msgid "Global configuration"
+msgstr "全域設定"
+
+#: applications/luci-app-zerotier/root/usr/share/rpcd/acl.d/luci-app-zerotier.json:3
+msgid "Grant access to ZeroTier configuration"
+msgstr "允許訪問 ZeroTier 的配置"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:91
+msgid "IPv4 Address"
+msgstr "IPv4 位址"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:95
+msgid "IPv6 Address"
+msgstr "IPv6 位址"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:83
+msgid "Interface Name"
+msgstr "介面名稱"
+
+#: applications/luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json:22
+msgid "Interface info"
+msgstr "介面資訊"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:138
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:149
+msgid "Leave empty for all."
+msgstr "留空表示全部。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:68
+msgid "Listen port"
+msgstr "監聽連接埠"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:74
+msgid "Local config path"
+msgstr "本地設定路徑"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:87
+msgid "MAC Address"
+msgstr "MAC 位址"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:99
+msgid "MTU"
+msgstr "MTU"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:148
+msgid "Masquerade interfaces"
+msgstr "偽裝介面"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:144
+msgid "Masquerading"
+msgstr "NAT"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:37
+msgid "NOT RUNNING"
+msgstr "尚未執行"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:108
+msgid "Network ID"
+msgstr "網路 ID"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:81
+msgid "Network Interface Information"
+msgstr "網路介面資訊"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:98
+msgid "Network configuration"
+msgstr "網路設定"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:77
+msgid "No interface online."
+msgstr "沒有介面在線上。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:92
+msgid "Open website"
+msgstr "開啟網站"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:75
+msgid ""
+"Path of the optional file local.conf (see <a target=\"_blank\" "
+"href=\"%s\">documentation</a>)."
+msgstr ""
+"選用 local.conf 設定檔的路徑（請參見 <a target=\"_blank\" href=\"%s\">手冊</"
+"a>）。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:80
+msgid ""
+"Persistent configuration directory (to keep other configurations such as "
+"controller or moons, etc.)."
+msgstr "持久化設定目錄（用於保留其他設定，例如 controller 或 moon 等）。"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:35
+msgid "RUNNING"
+msgstr "正在執行"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:103
+msgid "Total Download"
+msgstr "總下載量"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:107
+msgid "Total Upload"
+msgstr "總上傳量"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:30
+msgid "Unable to get interface %s info: %s."
+msgstr "無法取得介面 %s 的資訊：%s"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:15
+msgid "Unable to get interface info: %s."
+msgstr "無法取得介面資訊：%s"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:35
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:37
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:46
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:73
+#: applications/luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json:3
+msgid "ZeroTier"
+msgstr "ZeroTier"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:90
+msgid "ZeroTier Central"
+msgstr "ZeroTier 管理中心"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/config.js:47
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/interface.js:74
+msgid "ZeroTier is an open source, cross-platform and easy to use virtual LAN."
+msgstr "ZeroTier 是一個開源、跨平台且易於使用的虛擬區域網路 VPN。"
+
+
+#: applications/luci-app-zerotier/root/usr/share/luci/menu.d/luci-app-zerotier.json:22
+msgid "Controller"
+msgstr "控制器"
+
+#: applications/luci-app-zerotier/htdocs/luci-static/resources/view/zerotier/controller.js
+msgid "Unable to read API Token, please check if ZeroTier service is running."
+msgstr "無法讀取 API Token，請確認 ZeroTier 服務已啟動。"
+
+msgid "API call failed: %s"
+msgstr "API 呼叫失敗：%s"
+
+msgid "Manage the ZeroTier virtual network controller on the local router."
+msgstr "管理本地路由器上的 ZeroTier 虛擬網路控制器。"
+
+msgid "Actions"
+msgstr "動作"
+
+msgid "No networks have been created yet."
+msgstr "目前尚未建立任何網路。"
+
+msgid "Network Settings"
+msgstr "網路設定"
+
+msgid "Manage Members"
+msgstr "管理成員"
+
+msgid "Delete"
+msgstr "刪除"
+
+msgid "Create New Network"
+msgstr "建立新網路"
+
+msgid "Unable to get status"
+msgstr "無法取得系統狀態"
+
+msgid "Node ID not found"
+msgstr "找不到本機 Node ID"
+
+msgid "Network created successfully."
+msgstr "成功建立新網路。"
+
+msgid "Creation failed: %s"
+msgstr "建立失敗：%s"
+
+msgid "Are you sure you want to completely delete network %s? This action cannot be undone!"
+msgstr "確定要徹底刪除網路 %s 嗎？這項操作無法復原！"
+
+msgid "Network successfully deleted."
+msgstr "網路已成功刪除。"
+
+msgid "Delete failed."
+msgstr "刪除失敗。"
+
+msgid "Private - Requires manual authorization"
+msgstr "私人 (Private) - 需手動授權始可連線"
+
+msgid "Public - Anyone with the ID can connect"
+msgstr "公開 (Public) - 任何知道 ID 的設備皆可直接連線"
+
+msgid "Network Name"
+msgstr "網路名稱"
+
+msgid "Access Control"
+msgstr "存取控制"
+
+msgid "Set the IPv4 range for this virtual LAN. Leave blank to disable auto-assignment."
+msgstr "設定此虛擬區域網路的 IPv4 範圍。若要取消自動分配，請將欄位清空。"
+
+msgid "Target Network"
+msgstr "目標網段 (Target)"
+
+msgid "Assignment Start IP"
+msgstr "配發起始 IP"
+
+msgid "Assignment End IP"
+msgstr "配發結束 IP"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Network settings updated successfully."
+msgstr "網路設定已成功更新。"
+
+msgid "Failed to update network settings."
+msgstr "更新設定失敗。"
+
+msgid "Save Settings"
+msgstr "儲存設定"
+
+msgid "Unable to fetch network settings."
+msgstr "無法取得網路設定"
+
+msgid "Name"
+msgstr "名稱"
+
+msgid "Auth"
+msgstr "授權"
+
+msgid "Assigned IPs"
+msgstr "分配到的 IP"
+
+msgid "Physical IP"
+msgstr "實體 IP"
+
+msgid "Last Seen"
+msgstr "最後上線"
+
+msgid "No devices found."
+msgstr "目前沒有任何設備。"
+
+msgid "Offline"
+msgstr "離線"
+
+msgid "Unknown"
+msgstr "未知"
+
+msgid "Just now"
+msgstr "剛剛"
+
+msgid " mins ago"
+msgstr " 分鐘前"
+
+msgid " hours ago"
+msgstr " 小時前"
+
+msgid "Remarks"
+msgstr "備註名稱"
+
+msgid "Save"
+msgstr "儲存"
+
+msgid "Name saved successfully."
+msgstr "名稱已儲存！"
+
+msgid "Authorization updated."
+msgstr "授權已更新！"
+
+msgid "Leave blank for auto"
+msgstr "留空為自動"
+
+msgid "IP assignments saved."
+msgstr "IP 設定已儲存！請重新連線生效。"
+
+msgid "Apply"
+msgstr "套用"
+
+msgid "Are you sure you want to delete device %s from this network?"
+msgstr "確定要將設備 %s 從此網路中刪除嗎？"
+
+msgid "Device deleted successfully."
+msgstr "設備已刪除！"
+
+msgid "Failed to delete device."
+msgstr "刪除設備失敗。"
+
+msgid "Enter 10-digit Node ID"
+msgstr "輸入 10 碼 Node ID"
+
+msgid "Node ID must be 10 alphanumeric characters."
+msgstr "Node ID 必須是 10 碼英數字！"
+
+msgid "Device manually added and authorized."
+msgstr "設備已成功手動新增並授權！"
+
+msgid "Manual addition failed."
+msgstr "手動新增失敗。"
+
+msgid "Add Member"
+msgstr "新增"
+
+msgid "Manually Add Member: "
+msgstr "手動加入成員： "
+
+msgid "You can pre-authorize the Node ID of an unconnected device."
+msgstr "您可以提前將尚未連線的設備 Node ID 加進網路中並預先授權。"
+
+msgid "Manage Network Members"
+msgstr "管理網路成員"
+
+msgid "Close"
+msgstr "關閉視窗"
+
+msgid "Unable to fetch members list."
+msgstr "無法取得成員列表"
