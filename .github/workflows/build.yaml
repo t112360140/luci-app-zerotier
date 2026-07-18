@@ -22,10 +22,10 @@ jobs:
       - name: Build
         uses: openwrt/gh-action-sdk@main
         env:
-          ARCH: ${{ matrix.arch }}
-          RELEASE: ${{ matrix.sdk }}
+          ARCH: ARCH: ${{ matrix.arch }}-${{ matrix.sdk }}
           FEEDNAME: packages_ci
           PACKAGES: luci-app-zerotier
+          NO_REFRESH_CHECK: true
 
       - name: Store packages
         uses: actions/upload-artifact@v4
