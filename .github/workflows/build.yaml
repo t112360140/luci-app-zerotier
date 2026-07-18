@@ -11,6 +11,8 @@ jobs:
       matrix:
         arch:
           - mipsel_24kc
+        sdk:
+          - openwrt-24.10
 
     steps:
       - uses: actions/checkout@v4
@@ -28,4 +30,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.arch}}-packages
-          path: bin/packages/mipsel_24kc/**/*.ipk
+          path: bin/packages/${{ matrix.arch }}/packages_ci/*.ipk
