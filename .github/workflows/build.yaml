@@ -12,7 +12,7 @@ jobs:
         arch:
           - mipsel_24kc
         sdk:
-          - openwrt-23.05
+          - openwrt-24.10
 
     steps:
       - uses: actions/checkout@v4
@@ -23,6 +23,7 @@ jobs:
         uses: openwrt/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}
+          RELEASE: ${{ matrix.sdk }}
           FEEDNAME: packages_ci
           PACKAGES: luci-app-zerotier
 
@@ -30,4 +31,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.arch}}-packages
-          path: bin/
+          path: |
+            bin/packages/${{ matrix.arch }}/packages_ci/*.ipk
+            bin/packages/${{ matrix.arch }}/packages_ci/*.apk
